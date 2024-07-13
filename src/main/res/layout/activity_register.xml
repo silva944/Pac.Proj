@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".view.registerActivity">
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#FF000000"
+        android:inputType="textPassword"
+        app:fontFamily="@font/poppins_medium"
+        app:layout_constraintEnd_toEndOf="@+id/et_username"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="@+id/et_username"
+        app:layout_constraintTop_toBottomOf="@+id/et_username" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/ic_identity"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="#FF000000"
+        android:inputType="textPersonName"
+        app:fontFamily="@font/poppins_medium"
+        app:layout_constraintEnd_toEndOf="@+id/et_nome"
+        app:layout_constraintStart_toStartOf="@+id/et_nome"
+        app:layout_constraintTop_toBottomOf="@+id/et_nome" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_nome"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="SignUp"
+        android:textColor="#2572E6"
+        android:textSize="34sp"
+        app:fontFamily="@font/poppins_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/ic_full_name"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF000000"
+        app:fontFamily="@font/poppins_medium"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#2572E6"
+        android:text="SignUp"
+        app:layout_constraintEnd_toEndOf="@+id/et_password"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/et_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+    <TextView
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="LoginHere"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FF000000"
+        app:layout_constraintEnd_toEndOf="@+id/btn_registrar"
+        app:layout_constraintStart_toStartOf="@+id/btn_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_registrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
