@@ -1,0 +1,41 @@
+PROJPAC
+Logo e Título
+Título da Aplicação: SportFinder
+Descrição da Aplicação
+O SportFinder é uma aplicação destinada a ajudar os utilizadores a encontrar ginásios próximos que correspondam às suas necessidades e preferências específicas. Focado em profissionais de escritório, estudantes universitários e pessoas em busca de bem-estar, o SportFinder oferece uma plataforma intuitiva para descobrir ginásios, verificar horários de funcionamento, aceder a informações detalhadas e marcar visitas.
+
+Lista de Funcionalidades
+Funcionalidades Implementadas:
+
+Registo e Login:
+Permite que novos utilizadores se registem e façam login para aceder à aplicação.
+Lista de Ginásios:
+Exibe uma lista de ginásios próximos com imagens, nome e distância.
+Detalhes dos Ginásios:
+Fornece informações detalhadas sobre cada ginásio, incluindo endereço, fotos, site e contacto.
+Pesquisa e Filtros:
+Permite pesquisar ginásios com base na localização e tipo de atividade oferecida (como yoga, pilates, alta intensidade).
+Marcação de Visitas:
+Opção para marcar visitas aos ginásios diretamente através da aplicação.
+Funcionalidades por Implementar:
+
+Integração de Mapas:
+Adicionar uma funcionalidade de mapa interativo para visualização e navegação até aos ginásios.
+Avaliações e Comentários:
+Implementar um sistema para os utilizadores deixarem avaliações e comentários sobre os ginásios.
+Notificações e Alertas:
+Notificações para alertar os utilizadores sobre novos ginásios ou alterações nos horários.
+Plano de Subscrição:
+Desenvolver planos de subscrição para acesso a funcionalidades premium ou ginásios exclusivos.
+
+
+Autore
+Autor Principal: David Silva
+Instituição:
+ESCOLA SUPERIOR Tecnologia
+e Gestão
+
+
+
+
+
